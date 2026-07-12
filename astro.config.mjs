@@ -18,6 +18,7 @@ export default defineConfig({
       lastUpdated: false,
       pagination: true,
       sidebar: [
+        { label: '前言:為何你需要這本書', slug: 'unit00' },
         {
           label: '交易心法與資金管理',
           items: [
@@ -55,6 +56,7 @@ export default defineConfig({
             { label: '成功四階段實戰:從學習到獲利習慣', slug: 'unit17' },
           ],
         },
+        { label: '結語:設定目標與賺錢雷達掃描系統', slug: 'unit18' },
         {
           label: '附錄:實戰交易系統與交易心理',
           items: [
